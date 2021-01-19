@@ -9,23 +9,24 @@ void main() {
           Text("Pessoas: 0",
               style:
                   TextStyle(color: Colors.white, fontWeight: FontWeight.bold)),
-          Row(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: <Widget>[
-              FlatButton(
-                  onPressed: () {},
-                  child: Text(
-                    "+1",
-                    style: TextStyle(fontSize: 40.0, color: Colors.white),
-                  )),
-              FlatButton(
-                  onPressed: () {},
-                  child: Text(
-                    "-1",
-                    style: TextStyle(fontSize: 40.0, color: Colors.white),
-                  )),
-            ],
-          ),
+          Row(mainAxisAlignment: MainAxisAlignment.center, children: <Widget>[
+            Padding(
+                padding: EdgeInsets.all(10.0),
+                child: FlatButton(
+                    onPressed: () {},
+                    child: Text(
+                      "+1",
+                      style: TextStyle(fontSize: 40.0, color: Colors.white),
+                    ))),
+            Padding(
+                padding: EdgeInsets.all(10.0),
+                child: FlatButton(
+                    onPressed: () {},
+                    child: Text(
+                      "-1",
+                      style: TextStyle(fontSize: 40.0, color: Colors.white),
+                    ))),
+          ]),
           Text("Pode Entrar!",
               style:
                   TextStyle(color: Colors.white, fontWeight: FontWeight.bold))

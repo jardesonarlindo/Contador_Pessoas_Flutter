@@ -1,6 +1,6 @@
 # contador_pessoas
 
-contador de pessoas 
+Este é um contador de pessoas produzido para aprendizado em Flutter
 
 ## Getting Started
 
